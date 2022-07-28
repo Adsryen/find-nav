@@ -15,13 +15,13 @@
   "cnzzStatisticsUrl": "",
   "simThemeImages": [
     {
-      "src": "https://api.ixiaowai.cn/gqapi/gqapi.php",
+      "src": "https://www.prlrr.com/wallpaper-API/php-api/BingApi.php",
       "url": "",
       "width": null,
       "height": null
     },
     {
-      "src": "https://www.prlrr.com/wallpaper-API/php-api/BingApi.php",
+      "src": "https://api.btstu.cn/sjbz/api.php",
       "url": "",
       "width": null,
       "height": null
@@ -45,6 +45,12 @@
     },
     {
       "src": "https://api.ixiaowai.cn/gqapi/gqapi.php",
+      "url": "",
+      "width": null,
+      "height": null
+    },
+    {
+      "src": "https://api.btstu.cn/sjbz/api.php",
       "url": "",
       "width": null,
       "height": null
