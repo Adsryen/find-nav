@@ -8,6 +8,13 @@
           {{ $t('_updateLogo') }}
         </span>
         <app-upload (onChange)="onLogoChange($event)"></app-upload>
+        <div>
+          <input
+            nz-input
+            [value]="settings.favicon"
+            (change)="onLogoChange($event)"
+          />
+        </div>
       </label>
     </nz-form-control>
   </nz-form-item>
@@ -272,6 +279,14 @@
     <nz-form-control [nzSpan]="10">
       <img [src]="settings.shortcutThemeImages[0].src" />
       <app-upload (onChange)="onShortcutImgChange($event)"></app-upload>
+
+      <input
+        nz-input
+        type="text"
+        [value]="settings.shortcutThemeImages[0].src"
+        (change)="onShortcutImgChange($event)"
+        style="width: 300px;margin-top: 10px;"
+      />
     </nz-form-control>
   </nz-form-item>
 

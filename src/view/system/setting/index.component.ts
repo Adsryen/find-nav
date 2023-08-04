@@ -35,8 +35,8 @@ export default class SystemSettingComponent {
     })
   }
 
-  onLogoChange(data) {
-    this.settings.favicon = data.cdn
+  onLogoChange(data: any) {
+    this.settings.favicon = data.cdn ?? data.target.value
   }
 
 // Sim ===========================
@@ -116,8 +116,12 @@ export default class SystemSettingComponent {
     this.settings.mirrorList[idx].name = value
   }
 
-  onShortcutImgChange(data) {
-    this.settings.shortcutThemeImages[0].src = data.cdn
+  onShortcutImgChange(e) {
+    const url = e?.target?.value?.trim() || e.cdn
+    if (!url) {
+      return
+    }
+    this.settings.shortcutThemeImages[0].src = url
   }
 
   handleSubmit() {

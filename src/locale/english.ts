@@ -74,7 +74,7 @@ export default {
   _importChrome: 'Import from Chrome bookmarks',
   _allContentMsg1: '1. After setting all data, click "synchronize to remote end" and drag the table to sort',
   _allContentMsg2: '2. Website category needs to be maintained manually,',
-  _updateLogo: 'Replace logo, only PNG is supported, 200x200',
+  _updateLogo: 'Replace logo, PNG, 200x200',
   _tagName: 'Category name',
   _onlyOwnVisible: 'Only Self',
   _createAt: 'Create At',
@@ -145,5 +145,7 @@ export default {
   _mirrorList: "Mirror list",
   _mirrorAddr: "Mirror Address",
   _mirrorName: "Mirror Name",
-  _showRate: "Show rate"
+  _showRate: "Show rate",
+  _angleMark: "Angle Mark",
+  _logout: 'Logout'
 }
